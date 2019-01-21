@@ -64,7 +64,7 @@
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
-		<jtouchbar.version>0.2.0-SNAPSHOT</jtouchbar.version>
+		<jtouchbar.version>1.0.0-SNAPSHOT</jtouchbar.version>
 		<swt.version>4.6.1</swt.version>
 	</properties>
 	<build>
