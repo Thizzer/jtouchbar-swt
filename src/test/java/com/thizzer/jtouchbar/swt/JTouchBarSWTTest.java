@@ -1,5 +1,5 @@
 /**
- * JTouchBar
+ * JTouchBar-SWT
  *
  * Copyright (c) 2018 thizzer.com
  *
@@ -20,7 +20,6 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import com.thizzer.jtouchbar.JTouchBar;
-import com.thizzer.jtouchbar.JTouchBarTestUtils;
 import com.thizzer.jtouchbar.item.TouchBarItem;
 import com.thizzer.jtouchbar.item.view.TouchBarButton;
 
@@ -34,7 +33,7 @@ public class JTouchBarSWTTest {
 	
 	public static JTouchBar constructTouchBar() {
 		JTouchBar jTouchBar = new JTouchBar();
-        jTouchBar.setCustomizationIdentifier(JTouchBarTestUtils.class.getName());
+        jTouchBar.setCustomizationIdentifier(JTouchBarSWTTest.class.getName());
         
 		// flexible space
 		jTouchBar.getItems().add( new TouchBarItem( TouchBarItem.NSTouchBarItemIdentifierFlexibleSpace ) );

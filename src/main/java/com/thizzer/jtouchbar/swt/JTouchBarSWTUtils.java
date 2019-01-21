@@ -1,5 +1,5 @@
 /**
- * JTouchBar
+ * JTouchBar-SWT
  *
  * Copyright (c) 2018 thizzer.com
  *
