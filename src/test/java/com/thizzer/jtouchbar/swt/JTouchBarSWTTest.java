@@ -63,7 +63,7 @@ public class JTouchBarSWTTest {
 
         shell.open();
         
-        JTouchBarSWTUtils.show(jTouchBar, shell);
+        JTouchBarSWT.show(jTouchBar, shell);
         
         while (!shell.isDisposed()) {
             if (!display.readAndDispatch()) {

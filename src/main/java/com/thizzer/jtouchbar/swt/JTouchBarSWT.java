@@ -15,7 +15,7 @@ import org.eclipse.swt.widgets.Shell;
 import com.thizzer.jtouchbar.JTouchBar;
 import com.thizzer.jtouchbar.JTouchBarJNI;
 
-public class JTouchBarSWTUtils {
+public class JTouchBarSWT {
 	
 	public static void show(JTouchBar jTouchbar, Shell shell) {
 		long viewPointer = getViewPointer(shell);
