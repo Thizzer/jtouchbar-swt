@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Thizzer/JTouchBar-swt.svg?branch=master)](https://travis-ci.org/Thizzer/JTouchBar-swt)
+[![Build Status](https://travis-ci.com/Thizzer/jtouchbar-swt.svg?branch=master)](https://travis-ci.com/Thizzer/jtouchbar-swt)
 
 # jtouchbar-swt
 
