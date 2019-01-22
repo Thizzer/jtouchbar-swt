@@ -23,6 +23,25 @@ Please take a look at the other stuff the developers are working on and support 
 </dependency>
 ```
 
+### Gradle
+
+```gradle
+implementation group: 'com.thizzer.jtouchbar', name: 'jtouchbar', version: '1.0.0-SNAPSHOT'
+```
+
+#### SWT Example
+
+```java
+Shell shell = ...
+
+JTouchBar jTouchBar = new JTouchBar();
+jTouchBar.setCustomizationIdentifier("MySWTJavaTouchBar");
+
+// Customize your touchbar
+
+JTouchBarSWT.show(jTouchBar, shell);
+```
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
